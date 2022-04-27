@@ -1,1 +1,2 @@
 // styles
+import './Dashboard.css';

@@ -7,6 +7,7 @@ import './App.css';
 import Dashboard from './pages/dashboard/Dashboard';
 import Create from './pages/create/Create';
 import Project from './pages/project/Project';
+import Login from './pages/login/Login';
 
 function App() {
   return <div className="App"></div>;

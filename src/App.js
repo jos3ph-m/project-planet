@@ -5,6 +5,7 @@ import './App.css';
 
 // pages and components
 import Dashboard from './pages/dashboard/Dashboard';
+import Create from './pages/create/Create';
 
 function App() {
   return <div className="App"></div>;

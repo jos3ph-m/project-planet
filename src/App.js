@@ -13,7 +13,9 @@ import Signup from './pages/signup/Signup';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter></BrowserRouter>
+      <BrowserRouter>
+        <div className="container"></div>
+      </BrowserRouter>
     </div>
   );
 }

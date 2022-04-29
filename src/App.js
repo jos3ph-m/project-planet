@@ -22,7 +22,7 @@ function App() {
             <Route path="/create">
               <Create />
             </Route>
-            <Route path="/project">
+            <Route path="/projects/:id">
               <Project />
             </Route>
           </Switch>

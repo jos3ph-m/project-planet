@@ -11,7 +11,11 @@ import Login from './pages/login/Login';
 import Signup from './pages/signup/Signup';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <BrowserRouter></BrowserRouter>
+    </div>
+  );
 }
 
 export default App;

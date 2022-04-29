@@ -14,7 +14,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <div className="container"></div>
+        <div className="container">
+          <Switch></Switch>
+        </div>
       </BrowserRouter>
     </div>
   );

@@ -25,6 +25,7 @@ function App() {
             <Route path="/projects/:id">
               <Project />
             </Route>
+            <Route path="/login"></Route>
           </Switch>
         </div>
       </BrowserRouter>

@@ -19,8 +19,11 @@ function App() {
             <Route exact path="/">
               <Dashboard />
             </Route>
-            <Route path="/Create">
+            <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/project">
+              <Project />
             </Route>
           </Switch>
         </div>

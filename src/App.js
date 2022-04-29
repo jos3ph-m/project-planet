@@ -19,6 +19,7 @@ function App() {
             <Route exact path="/">
               <Dashboard />
             </Route>
+            <Route></Route>
           </Switch>
         </div>
       </BrowserRouter>

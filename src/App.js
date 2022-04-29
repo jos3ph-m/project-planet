@@ -19,7 +19,9 @@ function App() {
             <Route exact path="/">
               <Dashboard />
             </Route>
-            <Route></Route>
+            <Route path="/Create">
+              <Create />
+            </Route>
           </Switch>
         </div>
       </BrowserRouter>

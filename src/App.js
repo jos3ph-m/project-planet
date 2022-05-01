@@ -19,9 +19,7 @@ function App() {
             <Route exact path="/">
               <Dashboard />
             </Route>
-            <Route path="/create">
-              <Create />
-            </Route>
+            <Route path="/create"></Route>
             <Route path="/projects/:id">
               <Project />
             </Route>

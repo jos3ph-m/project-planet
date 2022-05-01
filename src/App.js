@@ -16,9 +16,7 @@ function App() {
       <BrowserRouter>
         <div className="container">
           <Switch>
-            <Route exact path="/">
-              <Dashboard />
-            </Route>
+            <Route exact path="/"></Route>
             <Route path="/create">
               <Create />
             </Route>

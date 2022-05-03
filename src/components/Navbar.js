@@ -8,6 +8,7 @@ export default function Navbar() {
       <ul>
         <li className="logo">
           <img src={Planet} alt="planet logo" />
+          <span>Project Planet</span>
         </li>
       </ul>
     </div>

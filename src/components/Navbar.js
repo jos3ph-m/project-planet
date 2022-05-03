@@ -6,7 +6,7 @@ import Planet from '../assets/planet.svg';
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="navbar">
       <ul>
         <li className="logo">
           <img src={Planet} alt="planet logo" />

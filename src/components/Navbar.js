@@ -5,7 +5,9 @@ import Planet from '../assets/planet.svg';
 export default function Navbar() {
   return (
     <div>
-      <ul></ul>
+      <ul>
+        <li className="logo"></li>
+      </ul>
     </div>
   );
 }

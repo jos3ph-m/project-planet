@@ -7,7 +7,10 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar-content">
-        <div className="user">{/* avatar and username here later */}</div>
+        <div className="user">
+          {/* avatar and username here later */}
+          <p>Hi End User</p>
+        </div>
       </div>
     </div>
   );

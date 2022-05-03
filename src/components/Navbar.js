@@ -1,4 +1,4 @@
-// styles
+// styles & images
 import './Navbar.css';
 
 export default function Navbar() {

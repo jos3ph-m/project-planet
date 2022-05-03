@@ -10,6 +10,7 @@ export default function Navbar() {
           <img src={Planet} alt="planet logo" />
           <span>Project Planet</span>
         </li>
+        <li></li>
       </ul>
     </div>
   );

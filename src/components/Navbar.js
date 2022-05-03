@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 // styles & images
 import './Navbar.css';
 import Planet from '../assets/planet.svg';

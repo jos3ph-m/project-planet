@@ -13,16 +13,16 @@
 .navbar .logo {
   font-weight: bold;
   color: var(--heading-color);
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   display: flex;
   align-items: center;
   margin-right: auto;
 }
 .navbar .logo img {
   margin-right: 10px;
-  filter: invert(25%);
+  filter: invert(30%);
   width: 36px;
-  margin-top: -8px;
+  margin-top: 0px;
 }
 .navbar a {
   color: #333;

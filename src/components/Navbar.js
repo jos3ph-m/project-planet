@@ -1,6 +1,6 @@
 // styles & images
 import './Navbar.css';
-import Temple from '../assets/temple.svg';
+import Planet from '../assets/planet.svg';
 
 export default function Navbar() {
   return <div>Navbar</div>;

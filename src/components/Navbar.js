@@ -3,5 +3,9 @@ import './Navbar.css';
 import Planet from '../assets/planet.svg';
 
 export default function Navbar() {
-  return <div>Navbar</div>;
+  return (
+    <div>
+      <ul></ul>
+    </div>
+  );
 }

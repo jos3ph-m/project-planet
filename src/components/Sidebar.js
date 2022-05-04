@@ -9,7 +9,7 @@ export default function Sidebar() {
       <div className="sidebar-content">
         <div className="user">
           {/* avatar and username here later */}
-          <p>Hi End User</p>
+          <p>Hi end user</p>
         </div>
       </div>
     </div>

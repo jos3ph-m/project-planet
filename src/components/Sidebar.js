@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 // styles & images
 import './Sidebar.css';
 import DashboardIcon from '../assets/dashboard_icon.svg';
@@ -11,6 +13,13 @@ export default function Sidebar() {
           {/* avatar and username here later */}
           <p>Hi end user</p>
         </div>
+        <nav className="links">
+          <ul>
+            <li>
+              <NavLink></NavLink>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   );

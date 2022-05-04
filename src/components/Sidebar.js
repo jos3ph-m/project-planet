@@ -16,7 +16,7 @@ export default function Sidebar() {
         <nav className="links">
           <ul>
             <li>
-              <NavLink></NavLink>
+              <NavLink to="/"></NavLink>
             </li>
           </ul>
         </nav>

@@ -11,7 +11,7 @@ export default function Sidebar() {
       <div className="sidebar-content">
         <div className="user">
           {/* avatar and username here later */}
-          <p>Hi end user</p>
+          <p>Hey you</p>
         </div>
         <nav className="links">
           <ul>

@@ -9,5 +9,9 @@ export default function Signup() {
   const [displayName, setDisplayName] = useState('');
   const [thumbnail, setThumbnail] = useState(null);
 
-  return <div>{displayName}</div>;
+  return (
+    <div>
+      {displayName} {thumbnail}
+    </div>
+  );
 }

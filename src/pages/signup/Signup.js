@@ -14,7 +14,11 @@ export default function Signup() {
       <h2>Sign up</h2>
       <label>
         <span>email:</span>
-        <input required type="email" />
+        <input
+          required
+          type="email"
+          onChange={(e) => setEmail(e.target.value)}
+        />
       </label>
     </form>
   );

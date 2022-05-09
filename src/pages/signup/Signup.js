@@ -18,6 +18,7 @@ export default function Signup() {
           required
           type="email"
           onChange={(e) => setEmail(e.target.value)}
+          value={email}
         />
       </label>
     </form>

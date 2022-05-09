@@ -25,9 +25,9 @@ export default function Signup() {
         <span>password:</span>
         <input
           required
-          type="email"
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
+          type="password"
+          onChange={(e) => setPassword(e.target.value)}
+          value={password}
         />
       </label>
     </form>

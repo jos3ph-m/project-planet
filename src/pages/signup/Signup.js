@@ -39,6 +39,15 @@ export default function Signup() {
           value={displayName}
         />
       </label>
+      <label>
+        <span>profile thumbnail:</span>
+        <input
+          required
+          type="text"
+          onChange={(e) => setDisplayName(e.target.value)}
+          value={displayName}
+        />
+      </label>
     </form>
   );
 }

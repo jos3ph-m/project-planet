@@ -43,7 +43,7 @@ export default function Signup() {
         <span>profile thumbnail:</span>
         <input
           required
-          type="text"
+          type="file"
           onChange={(e) => setDisplayName(e.target.value)}
           value={displayName}
         />

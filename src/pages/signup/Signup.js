@@ -41,12 +41,7 @@ export default function Signup() {
       </label>
       <label>
         <span>profile thumbnail:</span>
-        <input
-          required
-          type="file"
-          onChange={(e) => setDisplayName(e.target.value)}
-          value={displayName}
-        />
+        <input required type="file" />
       </label>
     </form>
   );

@@ -12,6 +12,9 @@ export default function Signup() {
   return (
     <form className="auth-form">
       <h2>Sign up</h2>
+      <label>
+        <span>email:</span>
+      </label>
     </form>
   );
 }

@@ -14,7 +14,7 @@ export default function Signup() {
       <h2>Sign up</h2>
       <label>
         <span>email:</span>
-        <input type="email" />
+        <input required type="email" />
       </label>
     </form>
   );

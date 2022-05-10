@@ -35,4 +35,5 @@
 }
 .sidebar .links img {
   margin-right: 10px;
+  filter: invert(100%);
 }

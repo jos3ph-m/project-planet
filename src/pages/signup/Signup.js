@@ -43,6 +43,7 @@ export default function Signup() {
         <span>profile thumbnail:</span>
         <input required type="file" />
       </label>
+      <button></button>
     </form>
   );
 }

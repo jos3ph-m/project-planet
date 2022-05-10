@@ -25,3 +25,11 @@
 .sidebar .links li {
   margin-top: 10px;
 }
+.sidebar .links a {
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  box-sizing: border-box;
+}

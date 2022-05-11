@@ -11,7 +11,8 @@ export default function Signup() {
 
   const handleFileChange = (e) => {
     setThumbnail(null);
-    let selected = e.target.files;
+    // we want the first file submitted
+    let selected = e.target.files[0];
   };
 
   return (

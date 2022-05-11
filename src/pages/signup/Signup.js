@@ -17,6 +17,7 @@ export default function Signup() {
     console.log(selected);
 
     if (!selected) {
+      setThumbnailError('Please select a file');
     }
   };
 

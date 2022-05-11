@@ -19,6 +19,8 @@ export default function Signup() {
     if (!selected) {
       setThumbnailError('Please select a file');
     }
+    if (!selected.type.includes('image')) {
+    }
   };
 
   return (

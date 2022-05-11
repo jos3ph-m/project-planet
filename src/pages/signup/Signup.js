@@ -14,6 +14,9 @@ export default function Signup() {
     // we want the first file submitted
     let selected = e.target.files[0];
     console.log(selected);
+
+    if (!selected) {
+    }
   };
 
   return (

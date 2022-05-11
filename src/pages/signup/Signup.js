@@ -9,7 +9,9 @@ export default function Signup() {
   const [displayName, setDisplayName] = useState('');
   const [thumbnail, setThumbnail] = useState(null);
 
-  const handleFileChange = (e) => {};
+  const handleFileChange = (e) => {
+    setThumbnail(null);
+  };
 
   return (
     <form className="auth-form">

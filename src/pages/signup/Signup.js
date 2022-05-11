@@ -41,7 +41,7 @@ export default function Signup() {
       </label>
       <label>
         <span>profile thumbnail:</span>
-        <input required type="file" />
+        <input required type="file" onChange={}/>
       </label>
       <button className="btn">Sign up</button>
     </form>

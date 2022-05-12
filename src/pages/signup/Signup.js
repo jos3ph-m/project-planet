@@ -28,6 +28,8 @@ export default function Signup() {
       setThumbnailError('Image file size must be less than 1mb');
       return;
     }
+
+    setThumbnailError(null);
   };
 
   return (

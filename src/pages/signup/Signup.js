@@ -22,6 +22,8 @@ export default function Signup() {
     if (!selected.type.includes('image')) {
       setThumbnailError('Selected file must be an image');
     }
+    if (selected.size > 100000) {
+    }
   };
 
   return (

@@ -65,7 +65,7 @@ export default function Signup() {
         />
       </label>
       <label>
-        <span>profile thumbnail:</span>
+        <span>thumbnail:</span>
         <input required type="file" onChange={handleFileChange} />
         {thumbnailError && <div className="error">{thumbnailError}</div>}
       </label>

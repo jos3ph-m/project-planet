@@ -59,7 +59,6 @@ export default function Signup() {
         <span>display name:</span>
         <input
           required
-          type="text"
           onChange={(e) => setDisplayName(e.target.value)}
           value={displayName}
         />

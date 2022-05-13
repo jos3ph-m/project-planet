@@ -41,6 +41,7 @@ export default function Signup() {
         <span>email:</span>
         <input
           required
+          type="email"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
         />

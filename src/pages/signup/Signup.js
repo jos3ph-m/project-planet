@@ -69,6 +69,7 @@ export default function Signup() {
         <input required type="file" onChange={handleFileChange} />
         {thumbnailError && <div className="error">{thumbnailError}</div>}
       </label>
+      <button className="btn">Sign up</button>
     </form>
   );
 }

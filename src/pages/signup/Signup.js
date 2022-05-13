@@ -67,7 +67,7 @@ export default function Signup() {
       <label>
         <span>profile thumbnail:</span>
         <input required type="file" onChange={handleFileChange} />
-        {thumbnailError && <div>{thumbnailError}</div>}
+        {thumbnailError && <div>{}</div>}
       </label>
       <button className="btn">Sign up</button>
     </form>

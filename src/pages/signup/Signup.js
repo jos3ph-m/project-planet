@@ -56,6 +56,7 @@ export default function Signup() {
         />
       </label>
       <label>
+        <span>display name:</span>
         <input
           required
           type="text"

@@ -10,6 +10,11 @@ export default function Signup() {
   const [thumbnail, setThumbnail] = useState(null);
   const [thumbnailError, setThumbnailError] = useState(null);
 
+  const handleSubmit = (e) {
+    e.preventDefault();
+    
+  }
+
   const handleFileChange = (e) => {
     setThumbnail(null);
     // we want the first file submitted

@@ -47,7 +47,6 @@ export default function Signup() {
         />
       </label>
       <label>
-        <span>password:</span>
         <input
           required
           type="password"

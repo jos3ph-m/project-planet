@@ -22,7 +22,7 @@ export default function Signup() {
     console.log(selected);
 
     if (!selected) {
-      setThumbnailError('Please choose a file');
+      setThumbnailError('Please select a file');
       return;
     }
     if (!selected.type.includes('image')) {

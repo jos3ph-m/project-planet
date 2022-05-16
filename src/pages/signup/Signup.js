@@ -10,10 +10,10 @@ export default function Signup() {
   const [thumbnail, setThumbnail] = useState(null);
   const [thumbnailError, setThumbnailError] = useState(null);
 
-  const handleSubmit = (e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
     console.log(email, password, displayName, thumbnail);
-  }
+  };
 
   const handleFileChange = (e) => {
     setThumbnail(null);

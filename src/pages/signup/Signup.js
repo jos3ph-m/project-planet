@@ -12,7 +12,7 @@ export default function Signup() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(email, password, thumbnail);
+    console.log(email, password, displayName, thumbnail);
   };
 
   const handleFileChange = (e) => {

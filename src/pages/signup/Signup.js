@@ -35,7 +35,7 @@ export default function Signup() {
   };
 
   return (
-    <form className="auth-form">
+    <form className="auth-form" onSubmit={handleSubmit}>
       <h2>Sign up</h2>
       <label>
         <span>email:</span>

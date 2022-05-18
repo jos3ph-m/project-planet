@@ -29,7 +29,7 @@ export const useSignup = () => {
       const imgUrl = await img.ref.getDownloadURL();
 
       // add display name to user
-      await res.user.updateProfile({ displayName, photoURL });
+      await res.user.updateProfile({ displayName, photoURL: imgUrl });
 
       // dispatch login action
       dispatch({ type: 'LOGIN', payload: res.user });

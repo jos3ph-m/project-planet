@@ -24,7 +24,7 @@ export const useSignup = () => {
       }
 
       // upload user thumbnail
-      const uploadPath = `thumbnails/`;
+      const uploadPath = `thumbnails/${res.user.uid}`;
 
       // add display name to user
       await res.user.updateProfile({ displayName, photoURL });

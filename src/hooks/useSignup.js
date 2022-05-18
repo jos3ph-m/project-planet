@@ -25,7 +25,7 @@ export const useSignup = () => {
 
       // upload user thumbnail
       const uploadPath = `thumbnails/${res.user.uid}/${thumbnail.name}`;
-      await projectStorage.ref(uploadPath).put();
+      await projectStorage.ref(uploadPath).put(thumbnail);
 
       // add display name to user
       await res.user.updateProfile({ displayName, photoURL });

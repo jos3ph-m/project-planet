@@ -23,6 +23,8 @@ export const useSignup = () => {
         throw new Error('Could not complete signup');
       }
 
+      // upload user thumbnail
+
       // add display name to user
       await res.user.updateProfile({ displayName, photoURL });
 

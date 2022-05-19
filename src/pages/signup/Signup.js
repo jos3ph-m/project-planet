@@ -77,6 +77,7 @@ export default function Signup() {
         {thumbnailError && <div className="error">{thumbnailError}</div>}
       </label>
       <button className="btn">Sign up</button>
+      {error && <div></div>}
     </form>
   );
 }

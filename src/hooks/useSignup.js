@@ -32,7 +32,6 @@ export const useSignup = () => {
       const img = await projectStorage.ref(uploadPath).put(thumbnail);
       const imgUrl = await img.ref.getDownloadURL();
 
-      // add display name to user
       await res.user.updateProfile({ displayName, photoURL: imgUrl });
 
       // create a user document

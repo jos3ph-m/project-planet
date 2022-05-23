@@ -6,6 +6,8 @@ import './Navbar.css';
 import Planet from '../assets/planet.svg';
 
 export default function Navbar() {
+  const { logout, isPending } = useLogout();
+
   return (
     <div className="navbar">
       <ul>

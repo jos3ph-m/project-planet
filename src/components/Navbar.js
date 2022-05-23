@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link to="signup">Sign Up</Link>
         </li>
         <li>
-          {!isPending && (
+          {isPending && (
             <button className="btn" onClick={logout}>
               Logout
             </button>

@@ -14,6 +14,9 @@ export const useLogout = () => {
 
     // sign the user out
     try {
+      // update online status
+      const { uid } = user;
+
       await projectAuth.signOut();
 
       // dispatch logout action

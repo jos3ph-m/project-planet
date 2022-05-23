@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useLogout } from '../hooks/useLogout';
 
 // styles & images
 import './Navbar.css';

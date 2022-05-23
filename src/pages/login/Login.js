@@ -2,6 +2,9 @@
 import './Login.css';
 
 export default function Login() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
   return (
     <form className="auth-form" onSubmit={handleSubmit}>
       <h2>Lgoin</h2>

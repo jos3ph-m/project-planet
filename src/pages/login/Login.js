@@ -24,7 +24,7 @@ export default function Login() {
         />
       </label>
 
-      {!isPending && <button className="btn">Sign up</button>}
+      {!isPending && <button className="btn">Login</button>}
       {isPending && (
         <button className="btn" disabled>
           Loading

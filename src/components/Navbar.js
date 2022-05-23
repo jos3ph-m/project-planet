@@ -22,7 +22,9 @@ export default function Navbar() {
           <Link to="signup">Sign Up</Link>
         </li>
         <li>
-          <button className="btn">Logout</button>
+          <button className="btn" onClick={logout}>
+            Logout
+          </button>
         </li>
       </ul>
     </div>

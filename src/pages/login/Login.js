@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 // styles
 import './Login.css';
 
@@ -7,6 +9,7 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(email, password);
   };
 
   return (

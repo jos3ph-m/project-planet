@@ -34,13 +34,13 @@ export default function Login() {
         />
       </label>
       <button className="btn">login</button>
-      {/*!isPending && <button className="btn">Login</button>}
+      {!isPending && <button className="btn">Login</button>}
       {isPending && (
         <button className="btn" disabled>
           Loading
         </button>
       )}
-      {error && <div className="error">{error}</div>*/}
+      {error && <div className="error">{error}</div>}
     </form>
   );
 }

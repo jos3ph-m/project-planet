@@ -14,6 +14,8 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 
 function App() {
+  const { user, authIsReady } = useAuthContext();
+
   return (
     <div className="App">
       <BrowserRouter>

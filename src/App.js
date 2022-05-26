@@ -18,29 +18,31 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
-        <Sidebar />
-        <div className="container">
-          <Navbar />
-          <Switch>
-            <Route exact path="/">
-              <Dashboard />
-            </Route>
-            <Route path="/create">
-              <Create />
-            </Route>
-            <Route path="/projects/:id">
-              <Project />
-            </Route>
-            <Route path="/login">
-              <Login />
-            </Route>
-            <Route path="/signup">
-              <Signup />
-            </Route>
-          </Switch>
-        </div>
-      </BrowserRouter>
+      {authIsReady && (
+        <BrowserRouter>
+          <Sidebar />
+          <div className="container">
+            <Navbar />
+            <Switch>
+              <Route exact path="/">
+                <Dashboard />
+              </Route>
+              <Route path="/create">
+                <Create />
+              </Route>
+              <Route path="/projects/:id">
+                <Project />
+              </Route>
+              <Route path="/login">
+                <Login />
+              </Route>
+              <Route path="/signup">
+                <Signup />
+              </Route>
+            </Switch>
+          </div>
+        </BrowserRouter>
+      )}
     </div>
   );
 }

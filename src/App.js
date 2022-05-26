@@ -30,7 +30,7 @@ function App() {
               </Route>
               <Route path="/create">
                 {!user && <Redirect to="/login" />}
-                <Create />
+                {user && <Create />}
               </Route>
               <Route path="/projects/:id">
                 <Project />

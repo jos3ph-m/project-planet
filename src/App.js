@@ -29,6 +29,7 @@ function App() {
                 {user && <Dashboard />}
               </Route>
               <Route path="/create">
+                {!user && <Redirect to="/login" />}
                 <Create />
               </Route>
               <Route path="/projects/:id">

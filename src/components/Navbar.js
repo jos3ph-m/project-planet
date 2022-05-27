@@ -18,14 +18,14 @@ export default function Navbar() {
           <span>Project Planet</span>
         </li>
         {!user && (
-          <li>
-            <Link to="/login">Login</Link>
-          </li>
-        )}
-        {!user && (
-          <li>
-            <Link to="signup">Sign Up</Link>
-          </li>
+          <>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
+            <li>
+              <Link to="signup">Sign Up</Link>
+            </li>
+          </>
         )}
         {user && (
           <li>

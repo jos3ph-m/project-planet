@@ -8,7 +8,7 @@ import Planet from '../assets/planet.svg';
 
 export default function Navbar() {
   const { logout, isPending } = useLogout();
-  const { user, authIsReady } = useAuthContext();
+  const { user } = useAuthContext();
 
   return (
     <div className="navbar">

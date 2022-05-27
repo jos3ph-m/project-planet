@@ -1,6 +1,10 @@
 // styles
 import './Avatar.css';
 
-export default function Avatar() {
-  return <div className="avatar"></div>;
+export default function Avatar({ src }) {
+  return (
+    <div className="avatar">
+      <img src="" alt="" />
+    </div>
+  );
 }

@@ -2,5 +2,5 @@
 import './Avatar.css';
 
 export default function Avatar() {
-  return <div></div>;
+  return <div className="avatar"></div>;
 }

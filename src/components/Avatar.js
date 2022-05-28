@@ -4,7 +4,7 @@ import './Avatar.css';
 export default function Avatar({ src }) {
   return (
     <div className="avatar">
-      <img alt="" />
+      <img src={src} alt="" />
     </div>
   );
 }

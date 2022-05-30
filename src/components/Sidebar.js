@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import Avatar from './Avatar';
+import { useAuthContext } from '../hooks/useAuthContext';
 
 // styles & images
 import './Sidebar.css';

@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { Avatar } from './Avatar';
 
 // styles & images
 import './Sidebar.css';
@@ -10,7 +11,7 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebar-content">
         <div className="user">
-          {/* avatar and username here later */}
+          <Avatar />
           <p>Hey you</p>
         </div>
         <nav className="links">

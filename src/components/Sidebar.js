@@ -14,7 +14,7 @@ export default function Sidebar() {
       <div className="sidebar-content">
         <div className="user">
           <Avatar src={user.photoURL} />
-          <p>Hey you</p>
+          <p>Hey {user.displayName}</p>
         </div>
         <nav className="links">
           <ul>

@@ -2,5 +2,5 @@
 import './OnlineUsers.css';
 
 export default function OnlineUsers() {
-  return <div></div>;
+  return <div className="user-list"></div>;
 }

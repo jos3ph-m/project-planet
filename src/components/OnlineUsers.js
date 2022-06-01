@@ -13,6 +13,7 @@ export default function OnlineUsers() {
         document.map((user) => (
           <div key={user.id}>
             <span>{user.displayName}</span>
+            <Avatar />
           </div>
         ))}
     </div>

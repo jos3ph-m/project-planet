@@ -9,7 +9,7 @@ export default function OnlineUsers() {
     <div className="user-list">
       <h2>All Users</h2>
       {error && <div className="error"></div>}
-      {documents && document.map}
+      {documents && document.map((user) => <div key={user.id}></div>)}
     </div>
   );
 }

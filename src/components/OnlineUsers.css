@@ -13,3 +13,14 @@
   border-bottom: 1px solid #eee;
   font-size: 1.2em;
 }
+.user-list .user-list-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px auto;
+}
+.user-list .avatar {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}

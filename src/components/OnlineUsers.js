@@ -12,7 +12,7 @@ export default function OnlineUsers() {
       {documents &&
         document.map((user) => (
           <div key={user.id}>
-            <span></span>
+            <span>{user.displayName}</span>
           </div>
         ))}
     </div>

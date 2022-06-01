@@ -1,3 +1,5 @@
+import { useCollection } from '../hooks/useCollection';
+
 // styles
 import './OnlineUsers.css';
 

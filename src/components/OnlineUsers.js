@@ -14,7 +14,7 @@ export default function OnlineUsers() {
       {error && <div className="error"></div>}
       {documents &&
         document.map((user) => (
-          <div key={user.id}>
+          <div key={user.id} className="user-list-item">
             <span>{user.displayName}</span>
             <Avatar src={user.photoURL} />
           </div>

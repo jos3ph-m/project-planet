@@ -15,7 +15,7 @@ export default function OnlineUsers() {
       {documents &&
         documents.map((user) => (
           <div key={user.id} className="user-list-item">
-            <span></span>
+            {user.online && <span className="online-user"></span>}
             <span>{user.displayName}</span>
             <Avatar src={user.photoURL} />
           </div>

@@ -29,4 +29,5 @@
 .user-list .online-user {
   display: inline-block;
   margin-right: 10px;
+  width: 12px;
 }

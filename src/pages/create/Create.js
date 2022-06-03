@@ -2,5 +2,5 @@
 import './Create.css';
 
 export default function Create() {
-  return <div>Create</div>;
+  return <div className="">Create</div>;
 }

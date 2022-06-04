@@ -22,6 +22,7 @@ export default function Create() {
             required
             type="text"
             onChange={(e) => setName(e.target.value)}
+            value={name}
           />
         </label>
       </form>

@@ -25,6 +25,15 @@ export default function Create() {
             value={name}
           />
         </label>
+        <label>
+          <span>Project details:</span>
+          <textarea
+            required
+            type="text"
+            onChange={(e) => setDetails()}
+            value={details}
+          ></textarea>
+        </label>
       </form>
     </div>
   );

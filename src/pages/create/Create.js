@@ -6,7 +6,7 @@ export default function Create() {
   const [name, setName] = useState('');
 
   return (
-    <div className="create-form">
+    <div>
       <h2 className="page-title">Create a new project</h2>
       <form></form>
     </div>

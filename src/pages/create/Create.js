@@ -16,7 +16,14 @@ export default function Create() {
     <div className="create-form">
       <h2 className="page-title">Create a new project</h2>
       <form>
-        <label></label>
+        <label>
+          <span>Project name:</span>
+          <input
+            required
+            type="text"
+            onChange={(e) => setName(e.target.value)}
+          />
+        </label>
       </form>
     </div>
   );

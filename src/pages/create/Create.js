@@ -30,7 +30,7 @@ export default function Create() {
           <textarea
             required
             type="text"
-            onChange={(e) => setDetails()}
+            onChange={(e) => setDetails(e.target.value)}
             value={details}
           ></textarea>
         </label>

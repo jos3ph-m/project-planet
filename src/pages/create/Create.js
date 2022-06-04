@@ -8,7 +8,7 @@ export default function Create() {
   //form field values
   const [name, setName] = useState('');
   const [details, setDetails] = useState('');
-  const [dueDate] = useState('');
+  const [dueDate, setDueDate] = useState('');
 
   return (
     <div className="create-form">

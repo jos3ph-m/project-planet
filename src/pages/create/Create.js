@@ -10,6 +10,7 @@ export default function Create() {
   const [details, setDetails] = useState('');
   const [dueDate, setDueDate] = useState('');
   const [category, setCategory] = useState('');
+  const [assignedUsers] = useState([]);
 
   return (
     <div className="create-form">

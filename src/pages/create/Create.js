@@ -43,6 +43,7 @@ export default function Create() {
             value={dueDate}
           ></textarea>
         </label>
+        <button className="btn">Add Project</button>
       </form>
     </div>
   );

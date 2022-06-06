@@ -49,7 +49,7 @@ export default function Create() {
         </label>
         <label>
           <span>Assign to:</span>
-          {/* category select here */}
+          {/* assignee select here */}
         </label>
         <button className="btn">Add Project</button>
       </form>

@@ -15,7 +15,7 @@ export default function Create() {
   return (
     <div className="create-form">
       <h2 className="page-title">Create a new project</h2>
-      <form onSubmit={}>
+      <form onSubmit={handleSubmit}>
         <label>
           <span>Project name:</span>
           <input

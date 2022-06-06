@@ -48,7 +48,7 @@ export default function Create() {
           {/* category select here */}
         </label>
         <label>
-          <span>Project category:</span>
+          <span>Assign to:</span>
           {/* category select here */}
         </label>
         <button className="btn">Add Project</button>

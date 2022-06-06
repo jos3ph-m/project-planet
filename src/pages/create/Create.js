@@ -35,7 +35,7 @@ export default function Create() {
           ></textarea>
         </label>
         <label>
-          <span>Project details:</span>
+          <span>Set due date:</span>
           <textarea
             required
             type="text"

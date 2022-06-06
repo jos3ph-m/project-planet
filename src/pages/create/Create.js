@@ -44,7 +44,12 @@ export default function Create() {
           ></textarea>
         </label>
         <label>
-          <span>Project category</span>
+          <span>Project category:</span>
+          {/* category select here */}
+        </label>
+        <label>
+          <span>Project category:</span>
+          {/* category select here */}
         </label>
         <button className="btn">Add Project</button>
       </form>

@@ -38,7 +38,7 @@ export default function Create() {
           <span>Set due date:</span>
           <textarea
             required
-            type="text"
+            type="date"
             onChange={(e) => setDetails(e.target.value)}
             value={details}
           ></textarea>

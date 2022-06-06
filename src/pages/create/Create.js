@@ -40,7 +40,7 @@ export default function Create() {
             required
             type="date"
             onChange={(e) => setDueDate(e.target.value)}
-            value={dueDate}
+            value={date}
           ></textarea>
         </label>
       </form>

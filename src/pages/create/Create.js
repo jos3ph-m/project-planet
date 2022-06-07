@@ -51,7 +51,7 @@ export default function Create() {
         </label>
         <label>
           <span>Project category:</span>
-          {/* category select here */}
+          <Select />
         </label>
         <label>
           <span>Assign to:</span>

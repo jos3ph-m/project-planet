@@ -6,6 +6,7 @@ import './Create.css';
 
 const categories = [
   {value: 'development', label: 'Development'},
+  {value: 'design', label: 'Design'},
 ]
 
 

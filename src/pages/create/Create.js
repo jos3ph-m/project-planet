@@ -3,7 +3,11 @@ import Select from 'react-select';
 
 // styles
 import './Create.css';
-import react from 'react';
+
+const categories = [
+  
+]
+
 
 export default function Create() {
   //form field values

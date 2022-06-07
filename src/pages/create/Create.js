@@ -57,7 +57,10 @@ export default function Create() {
         </label>
         <label>
           <span>Project category:</span>
-          <Select options={categories} />
+          <Select
+            onChange={(option) => setCategory(option)}
+            options={categories}
+          />
         </label>
         <label>
           <span>Assign to:</span>

@@ -5,7 +5,7 @@ import Select from 'react-select';
 import './Create.css';
 
 const categories = [
-  
+  {value: 'development', label: 'Development'},
 ]
 
 

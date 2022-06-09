@@ -62,10 +62,7 @@ export default function Create() {
             options={categories}
           />
         </label>
-        <label>
-          <span>Assign to:</span>
-          {/* assignee select here */}
-        </label>
+
         <button className="btn">Add Project</button>
       </form>
     </div>

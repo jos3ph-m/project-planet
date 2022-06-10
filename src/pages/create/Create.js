@@ -68,9 +68,7 @@ export default function Create() {
         </label>
         <label>
           <span>Assign to:</span>
-          {/* <Select
-            options={}
-          /> */}
+          <Select options={users} />
         </label>
         <button className="btn">Add Project</button>
       </form>

@@ -77,7 +77,10 @@ export default function Create() {
         </label>
         <label>
           <span>Assign to:</span>
-          <Select options={users} />
+          <Select
+            onChange={(option) => setAssignedUsers(option)}
+            options={users}
+          />
         </label>
         <button className="btn">Add Project</button>
       </form>

@@ -13,6 +13,7 @@ const categories = [
 ];
 
 export default function Create() {
+  const { documents } = useCollection('users')
   //form field values
   const [name, setName] = useState('');
   const [details, setDetails] = useState('');

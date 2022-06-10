@@ -28,6 +28,7 @@ export default function Create() {
       const options = documents.map((user) => {
         return { value: user, label: user.displayName };
       });
+      setUsers(options);
     }
   }, [documents]);
 

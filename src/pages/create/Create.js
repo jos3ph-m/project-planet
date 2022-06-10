@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Select from 'react-select';
 import { useCollection } from '../../hooks/useCollection';
 
@@ -22,6 +22,8 @@ export default function Create() {
   const [dueDate, setDueDate] = useState('');
   const [category, setCategory] = useState('');
   const [assignedUsers, setAssignedUsers] = useState([]);
+
+  useEffect(() => {}, [documents]);
 
   const handleSubmit = (e) => {
     e.preventDefault();

@@ -25,6 +25,7 @@ export default function Create() {
 
   useEffect(() => {
     if (documents) {
+      const options = documents.map((user) => {});
     }
   }, [documents]);
 

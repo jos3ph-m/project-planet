@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Select from 'react-select';
-import { useCollection } from '../../hooks/useCollection';
+import { useCollection } from '../../hooks/useCollection'
 
 // styles
 import './Create.css';
@@ -13,7 +13,7 @@ const categories = [
 ];
 
 export default function Create() {
-  const { documents } = useCollection('users');
+  const { documents } = useCollection('users')
   console.log(documents);
   //form field values
   const [name, setName] = useState('');
@@ -67,9 +67,9 @@ export default function Create() {
         </label>
         <label>
           <span>Assign to:</span>
-          {/* <Select
+          <Select
             options={}
-          /> */}
+          />
         </label>
         <button className="btn">Add Project</button>
       </form>

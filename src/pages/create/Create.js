@@ -23,7 +23,10 @@ export default function Create() {
   const [category, setCategory] = useState('');
   const [assignedUsers, setAssignedUsers] = useState([]);
 
-  useEffect(() => {}, [documents]);
+  useEffect(() => {
+    if (documents) {
+    }
+  }, [documents]);
 
   const handleSubmit = (e) => {
     e.preventDefault();

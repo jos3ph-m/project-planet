@@ -25,7 +25,9 @@ export default function Create() {
 
   useEffect(() => {
     if (documents) {
-      const options = documents.map((user) => {});
+      const options = documents.map((user) => {
+        return { value: user, label: user.displayName };
+      });
     }
   }, [documents]);
 

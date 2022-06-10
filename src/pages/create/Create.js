@@ -80,7 +80,6 @@ export default function Create() {
           <Select
             onChange={(option) => setAssignedUsers(option)}
             options={users}
-            isMulti
           />
         </label>
         <button className="btn">Add Project</button>

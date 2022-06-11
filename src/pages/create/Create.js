@@ -76,7 +76,7 @@ export default function Create() {
           />
         </label>
         <label>
-          <span>Assign to:</span>
+          <span></span>
           <Select
             onChange={(option) => setAssignedUsers(option)}
             options={users}

@@ -95,7 +95,7 @@ export default function Create() {
           />
         </label>
         <button className="btn">Add Project</button>
-        {formError && <p></p>}
+        {formError && <p>{formError}</p>}
       </form>
     </div>
   );

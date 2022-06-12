@@ -35,6 +35,7 @@ export default function Create() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setFormError(null);
     console.log(name, details, dueDate, category.value, assignedUsers);
   };
 

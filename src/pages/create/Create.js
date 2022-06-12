@@ -36,6 +36,10 @@ export default function Create() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormError(null);
+
+    if (!category) {
+      setFormError('Please select the project category');
+    }
     console.log(name, details, dueDate, category.value, assignedUsers);
   };
 

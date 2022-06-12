@@ -41,6 +41,9 @@ export default function Create() {
       setFormError('Please select the project category');
       return;
     }
+    if (assignedUsers.length < 1) {
+      setFormError('Please assign the project to at least 1 user');
+    }
     console.log(name, details, dueDate, category.value, assignedUsers);
   };
 

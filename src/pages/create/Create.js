@@ -39,6 +39,7 @@ export default function Create() {
 
     if (!category) {
       setFormError('Please select the project category');
+      return;
     }
     console.log(name, details, dueDate, category.value, assignedUsers);
   };

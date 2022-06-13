@@ -17,6 +17,7 @@ const categories = [
 export default function Create() {
   const { documents } = useCollection('users');
   const [users, setUsers] = useState([]);
+  const { user } = useAuthContext();
 
   //form field values
   const [name, setName] = useState('');

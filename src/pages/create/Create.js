@@ -55,6 +55,14 @@ export default function Create() {
       id: user.id,
     };
 
+    const assignedUsersList = assignedUsers.map((u) => {
+      return {
+        displayName: u.value.displayName,
+        photoURL: u.value.photoURL,
+        id: u.value.id,
+      };
+    });
+
     const project = {
       name,
       details,
@@ -62,6 +70,7 @@ export default function Create() {
       dueDate: timestamp.fromDate(new Date(dueDate)),
       comments: [],
       createdBy,
+      assignedUsersList,
     };
     console.log(name, details, dueDate, category.value, assignedUsers);
   };

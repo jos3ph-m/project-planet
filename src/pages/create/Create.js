@@ -45,6 +45,7 @@ export default function Create() {
       setFormError('Please assign the project to at least 1 user');
       return;
     }
+    const project = {};
     console.log(name, details, dueDate, category.value, assignedUsers);
   };
 

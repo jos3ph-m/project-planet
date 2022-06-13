@@ -72,7 +72,7 @@ export default function Create() {
       createdBy,
       assignedUsersList,
     };
-    console.log(project);
+    console.log(name, details, dueDate, category.value, assignedUsers);
   };
 
   return (

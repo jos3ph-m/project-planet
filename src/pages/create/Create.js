@@ -61,6 +61,7 @@ export default function Create() {
       category: category.value,
       dueDate: timestamp.fromDate(new Date(dueDate)),
       comments: [],
+      createdBy,
     };
     console.log(name, details, dueDate, category.value, assignedUsers);
   };

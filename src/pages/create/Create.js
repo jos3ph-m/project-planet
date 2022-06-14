@@ -38,7 +38,7 @@ export default function Create() {
     }
   }, [documents]);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setFormError(null);
 
@@ -74,7 +74,7 @@ export default function Create() {
       createdBy,
       assignedUsersList,
     };
-    console.log(project);
+    await addDocument(project);
   };
 
   return (

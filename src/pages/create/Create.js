@@ -17,6 +17,7 @@ const categories = [
 ];
 
 export default function Create() {
+  const history = useHistory();
   const { addDocument, response } = useFirestore('projects');
   const { documents } = useCollection('users');
   const [users, setUsers] = useState([]);

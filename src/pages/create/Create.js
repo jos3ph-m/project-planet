@@ -78,6 +78,7 @@ export default function Create() {
     };
     await addDocument(project);
     if (!response.error) {
+      history.push('/');
     }
   };
 

@@ -4,6 +4,7 @@ import { useCollection } from '../../hooks/useCollection';
 import { timestamp } from '../../firebase/config';
 import { useAuthContext } from '../../hooks/useAuthContext';
 import { useFirestore } from '../../hooks/useFirestore';
+import { useHistory } from 'react-router-dom';
 
 // styles
 import './Create.css';

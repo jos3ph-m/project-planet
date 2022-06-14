@@ -7,7 +7,7 @@ export default function Dashboard() {
   const { documents, error } = useCollection('projects');
   return (
     <div>
-      <h2></h2>
+      <h2 className="page-title"></h2>
     </div>
   );
 }

@@ -5,5 +5,9 @@ import './Dashboard.css';
 
 export default function Dashboard() {
   const { documents, error } = useCollection('projects');
-  return <div>Dashboard</div>;
+  return (
+    <div>
+      <h2></h2>
+    </div>
+  );
 }

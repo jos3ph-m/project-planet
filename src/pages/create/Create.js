@@ -16,7 +16,7 @@ const categories = [
 ];
 
 export default function Create() {
-  const { addDocument, response } = useFirestore();
+  const { addDocument, response } = useFirestore('projects');
   const { documents } = useCollection('users');
   const [users, setUsers] = useState([]);
   const { user } = useAuthContext();
@@ -75,6 +75,8 @@ export default function Create() {
       assignedUsersList,
     };
     await addDocument(project);
+    if (!response.error) {
+    }
   };
 
   return (

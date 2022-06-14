@@ -77,6 +77,8 @@ export default function Create() {
       assignedUsersList,
     };
     await addDocument(project);
+
+    // if no error send to home page
     if (!response.error) {
       history.push('/');
     }

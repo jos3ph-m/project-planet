@@ -16,6 +16,7 @@ const categories = [
 ];
 
 export default function Create() {
+  const { addDocument } = useFirestore();
   const { documents } = useCollection('users');
   const [users, setUsers] = useState([]);
   const { user } = useAuthContext();

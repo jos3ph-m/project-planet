@@ -5,7 +5,9 @@ export default function ProjectList({ projects }) {
   return (
     <div>
       {projects.length === 0 && <p>No projects yet.</p>}
-      {projects.map()}
+      {projects.map((project) => (
+        <div></div>
+      ))}
     </div>
   );
 }

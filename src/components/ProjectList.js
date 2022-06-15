@@ -1,1 +1,2 @@
 // styles
+import './ProjectList.css';

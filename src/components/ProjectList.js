@@ -14,7 +14,7 @@ export default function ProjectList({ projects }) {
           <div className="assigned-to">
             <ul>
               {project.assignedUsersList.map((user) => (
-                <li></li>
+                <li key={user.photoURL}></li>
               ))}
             </ul>
           </div>

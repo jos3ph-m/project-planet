@@ -20,3 +20,8 @@
   color: var(--text-color);
   font-size: 0.9em;
 }
+.project-list .assigned-to {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}

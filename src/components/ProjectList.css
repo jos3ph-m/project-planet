@@ -29,3 +29,6 @@
   margin: 10px 0;
   display: flex;
 }
+.project-list li {
+  margin-right: 10px;
+}

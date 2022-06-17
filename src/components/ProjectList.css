@@ -16,3 +16,7 @@
   font-size: 0.9em;
   color: var(--heading-color);
 }
+.project-list p {
+  color: var(--text-color);
+  font-size: 0.9em;
+}

@@ -26,7 +26,8 @@
   border-top: 1px solid #eee;
 }
 .project-list ul {
-  
+  margin: 10px 0;
+  display: flex;
 }
 .project-list li {
   margin-right: 10px;

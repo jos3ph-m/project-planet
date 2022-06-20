@@ -8,9 +8,14 @@ export const useDocument = (collection, id) => {
   // realtime data for document
   useEffect(() => {
     const ref = projectFirestore.collection(collection).doc(id);
-    ref.onSnapshot((snapshot) => {
-      setDocument({ ...snapshot.data(), id: snapshot.id });
-      setError(null);
-    });
+    ref.onSnapshot(
+      (snapshot) => {
+        setDocument({ ...snapshot.data(), id: snapshot.id });
+        setError(null);
+      },
+      (err) => {
+        console.log(err);
+      }
+    );
   }, [collection, id]);
 };

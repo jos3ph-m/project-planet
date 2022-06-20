@@ -9,7 +9,7 @@ export const useDocument = (collection, id) => {
   useEffect(() => {
     const ref = projectFirestore.collection(collection).doc(id);
     ref.onSnapshot((snapshot) => {
-      setDocument({});
+      setDocument({ ...snapshot.data() });
     });
   }, [collection, id]);
 };

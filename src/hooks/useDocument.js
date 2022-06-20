@@ -6,4 +6,5 @@ export const useDocument = (collection, id) => {
   const [error, setError] = useState(null);
 
   // realtime data for document
+  useEffect();
 };

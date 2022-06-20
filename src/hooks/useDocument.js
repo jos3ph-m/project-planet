@@ -5,5 +5,5 @@ export const useDocument = (collection, id) => {
   const [document, setDocument] = useState(null);
   const [error, setError] = useState(null);
 
-  // realtime data
+  // realtime data for document
 };

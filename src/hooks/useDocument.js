@@ -10,6 +10,7 @@ export const useDocument = (collection, id) => {
     const ref = projectFirestore.collection(collection).doc(id);
     ref.onSnapshot((snapshot) => {
       setDocument({ ...snapshot.data(), id: snapshot.id });
+      setError(null);
     });
   }, [collection, id]);
 };

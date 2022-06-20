@@ -7,6 +7,6 @@ export const useDocument = (collection, id) => {
 
   // realtime data for document
   useEffect(() => {
-    const ref = projectFirestore.collection(collection);
+    const ref = projectFirestore.collection(collection).doc(id);
   }, [collection, id]);
 };

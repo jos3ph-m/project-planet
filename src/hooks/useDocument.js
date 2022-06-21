@@ -19,6 +19,6 @@ export const useDocument = (collection, id) => {
       }
     );
 
-    return () => {};
+    return () => unsubscribe();
   }, [collection, id]);
 };

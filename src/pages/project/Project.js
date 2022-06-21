@@ -9,6 +9,7 @@ export default function Project() {
   const { error, document } = useDocument('projects', id);
 
   if (error) {
+    return <div></div>;
   }
   return <div>Project details</div>;
 }

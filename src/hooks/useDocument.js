@@ -14,7 +14,7 @@ export const useDocument = (collection, id) => {
         setError(null);
       },
       (err) => {
-        console.log(err);
+        console.log(err.message);
       }
     );
   }, [collection, id]);

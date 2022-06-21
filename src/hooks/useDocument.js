@@ -8,7 +8,7 @@ export const useDocument = (collection, id) => {
   // realtime data for document
   useEffect(() => {
     const ref = projectFirestore.collection(collection).doc(id);
-    ref.onSnapshot(
+    const unsubscribe = ref.onSnapshot(
       (snapshot) => {
         setDocument({ ...snapshot.data(), id: snapshot.id });
         setError(null);

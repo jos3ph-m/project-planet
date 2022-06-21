@@ -15,6 +15,7 @@ export const useDocument = (collection, id) => {
       },
       (err) => {
         console.log(err.message);
+        setError('failed to get document');
       }
     );
   }, [collection, id]);

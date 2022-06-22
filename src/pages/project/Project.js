@@ -13,7 +13,7 @@ export default function Project() {
   }
 
   if (!document) {
-    return <div>Loading...</div>;
+    return <div className="loading">Loading...</div>;
   }
 
   return <div>Project details</div>;

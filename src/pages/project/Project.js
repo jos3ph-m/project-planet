@@ -11,5 +11,9 @@ export default function Project() {
   if (error) {
     return <div className="error">{error}</div>;
   }
+
+  if (!document) {
+  }
+
   return <div>Project details</div>;
 }

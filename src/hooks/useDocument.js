@@ -10,6 +10,8 @@ export const useDocument = (collection, id) => {
     const ref = projectFirestore.collection(collection).doc(id);
     const unsubscribe = ref.onSnapshot(
       (snapshot) => {
+        if (snapshot.data()) {
+        }
         setDocument({ ...snapshot.data(), id: snapshot.id });
         setError(null);
       },

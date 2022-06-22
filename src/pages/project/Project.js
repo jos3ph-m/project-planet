@@ -8,6 +8,7 @@ export default function Project() {
   const { id } = useParams();
   const { error, document } = useDocument('projects', id);
 
+  // if we have an error return the error
   if (error) {
     return <div className="error">{error}</div>;
   }

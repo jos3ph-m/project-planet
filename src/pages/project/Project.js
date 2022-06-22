@@ -13,6 +13,7 @@ export default function Project() {
   }
 
   if (!document) {
+    return
   }
 
   return <div>Project details</div>;

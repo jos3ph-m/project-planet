@@ -13,6 +13,7 @@ export default function Project() {
     return <div className="error">{error}</div>;
   }
 
+  // No error and no document return Loading...
   if (!document) {
     return <div className="loading">Loading...</div>;
   }

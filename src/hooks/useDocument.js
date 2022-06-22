@@ -13,6 +13,8 @@ export const useDocument = (collection, id) => {
         if (snapshot.data()) {
           setDocument({ ...snapshot.data(), id: snapshot.id });
           setError(null);
+        } else {
+          setError('no such document exists');
         }
       },
       (err) => {

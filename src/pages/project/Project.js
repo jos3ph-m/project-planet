@@ -18,7 +18,7 @@ export default function Project() {
 
   return (
     <div className="project-details">
-      <h1></h1>
+      <h1>{document.name}</h1>
     </div>
   );
 }

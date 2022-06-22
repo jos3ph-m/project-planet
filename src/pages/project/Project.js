@@ -16,5 +16,5 @@ export default function Project() {
     return <div className="loading">Loading...</div>;
   }
 
-  return <div>Project details</div>;
+  return <div className="project-details">Project details</div>;
 }

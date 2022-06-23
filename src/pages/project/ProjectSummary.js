@@ -1,3 +1,3 @@
-export default function ProjectSummary() {
+export default function ProjectSummary({ project }) {
   return <div></div>;
 }

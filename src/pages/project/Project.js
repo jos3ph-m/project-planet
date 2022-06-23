@@ -1,9 +1,9 @@
 import { useParams } from 'react-router-dom';
 import { useDocument } from '../../hooks/useDocument';
+import ProjectSummary from './ProjectSummary';
 
 // styles
 import './Project.css';
-import ProjectSummary from './ProjectSummary';
 
 export default function Project() {
   const { id } = useParams();

@@ -3,6 +3,7 @@ import { useDocument } from '../../hooks/useDocument';
 
 // styles
 import './Project.css';
+import ProjectSummary from './ProjectSummary';
 
 export default function Project() {
   const { id } = useParams();
@@ -21,7 +22,7 @@ export default function Project() {
   // finally no error and the document exists, return the document name
   return (
     <div className="project-details">
-      <h1>{document.name}</h1>
+      <ProjectSummary />
     </div>
   );
 }

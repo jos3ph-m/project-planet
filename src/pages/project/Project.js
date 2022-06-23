@@ -22,7 +22,7 @@ export default function Project() {
   // finally no error and the document exists, return the document name
   return (
     <div className="project-details">
-      <ProjectSummary />
+      <ProjectSummary project={document} />
     </div>
   );
 }

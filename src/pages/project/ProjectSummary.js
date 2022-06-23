@@ -1,3 +1,7 @@
 export default function ProjectSummary({ project }) {
-  return <div></div>;
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
 }

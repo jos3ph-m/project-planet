@@ -9,7 +9,7 @@ export default function ProjectSummary({ project }) {
         <p className="details">{project.details}</p>
         <h4>Project is assigned to:</h4>
         {project.assignedUsersList.map((user) => (
-          <div></div>
+          <div key={user.id}></div>
         ))}
       </div>
     </div>

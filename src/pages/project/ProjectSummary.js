@@ -6,7 +6,7 @@ export default function ProjectSummary({ project }) {
         <p className="due-date">
           Project due by {project.dueDate.toDate().toDateString()}
         </p>
-        <p className="details"></p>
+        <p className="details">{project.details}</p>
       </div>
     </div>
   );

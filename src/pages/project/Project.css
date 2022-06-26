@@ -28,4 +28,5 @@
 }
 .project-summary .assigned-users {
   display: flex;
+  margin-top: 20px;
 }

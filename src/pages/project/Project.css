@@ -23,5 +23,5 @@
   font-size: 0.9em;
 }
 .project-summary h4 {
-
+  color: var(--text-color);
 }

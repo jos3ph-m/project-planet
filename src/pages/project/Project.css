@@ -1,7 +1,8 @@
 .project-details {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  
+  align-items: start;
+  grid-gap: 60px;
 }
 
 /* project summary */

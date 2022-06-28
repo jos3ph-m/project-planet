@@ -3,5 +3,5 @@ import { timestamp } from '../../firebase/config';
 import { useAuthContext } from '../../hooks/useAuthContext';
 
 export default function ProjectComments() {
-  return <div>ProjectComments</div>;
+  return <div className="project-comments"></div>;
 }

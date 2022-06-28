@@ -6,7 +6,7 @@ export default function ProjectComments() {
   return (
     <div className="project-comments">
       <h4>Project Comments</h4>
-      <form action=""></form>
+      <form></form>
     </div>
   );
 }

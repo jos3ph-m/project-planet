@@ -10,6 +10,7 @@ export default function ProjectSummary({ project }) {
         </p>
         <p className="details">{project.details}</p>
         <h4>Project is assigned to:</h4>
+        <div></div>
         {project.assignedUsersList.map((user) => (
           <div key={user.id}>
             <Avatar src={user.photoURL} />

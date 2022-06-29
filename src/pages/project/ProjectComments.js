@@ -4,11 +4,14 @@ import { useAuthContext } from '../../hooks/useAuthContext';
 
 export default function ProjectComments() {
   const [newComment, setNewComment] = useState('');
+  const { user } = useAuthContext();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const commentToAdd = {};
+    const commentToAdd = {
+      displayName: user.displayName,
+    };
   };
   return (
     <div className="project-comments">

@@ -4,10 +4,12 @@ import { useAuthContext } from '../../hooks/useAuthContext';
 
 export default function ProjectComments() {
   const [newComment, setNewComment] = useState('');
+
+  const handleSubmit = async (e) => {};
   return (
     <div className="project-comments">
       <h4>Project Comments</h4>
-      <form className="add-comment">
+      <form className="add-comment" onSubmitt={handleSubmit}>
         <label>
           <span>Add new comment:</span>
           <textarea

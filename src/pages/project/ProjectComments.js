@@ -8,7 +8,7 @@ export default function ProjectComments() {
       <h4>Project Comments</h4>
       <form className="add-comment">
         <label>
-          <span></span>
+          <span>Add new comment:</span>
         </label>
       </form>
     </div>

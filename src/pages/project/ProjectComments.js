@@ -13,6 +13,7 @@ export default function ProjectComments() {
           <textarea
             required
             onChange={setNewComment(e.target.value)}
+            value={newComment}
           ></textarea>
         </label>
       </form>

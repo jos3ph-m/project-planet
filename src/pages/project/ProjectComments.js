@@ -9,7 +9,7 @@ export default function ProjectComments() {
       <form className="add-comment">
         <label>
           <span>Add new comment:</span>
-          <textarea></textarea>
+          <textarea required></textarea>
         </label>
       </form>
     </div>

@@ -7,6 +7,8 @@ export default function ProjectComments() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const commentToAdd = {};
   };
   return (
     <div className="project-comments">

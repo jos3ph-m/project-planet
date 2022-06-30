@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { timestamp } from '../../firebase/config';
 import { useAuthContext } from '../../hooks/useAuthContext';
+import nextId from 'react-id-generator';
 
 export default function ProjectComments() {
   const [newComment, setNewComment] = useState('');
@@ -9,11 +10,14 @@ export default function ProjectComments() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const htmlId = nextId();
+
     const commentToAdd = {
       displayName: user.displayName,
       photoURL: user.photoURL,
       content: newComment,
       createdAt: timestamp.fromDate(new Date()),
+      id: htmlId,
     };
   };
   return (

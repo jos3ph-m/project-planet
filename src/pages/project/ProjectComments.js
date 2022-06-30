@@ -30,7 +30,7 @@ export default function ProjectComments() {
           <span>Add new comment:</span>
           <textarea
             required
-            onChange={setNewComment(e.target.value)}
+            onChange={(e) => setNewComment(e.target.value)}
             value={newComment}
           ></textarea>
         </label>

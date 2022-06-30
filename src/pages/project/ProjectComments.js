@@ -17,6 +17,7 @@ export default function ProjectComments() {
       photoURL: user.photoURL,
       content: newComment,
       createdAt: timestamp.fromDate(new Date()),
+      id: htmlId,
     };
 
     console.log(commentToAdd);

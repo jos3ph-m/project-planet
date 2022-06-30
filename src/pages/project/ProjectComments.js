@@ -13,6 +13,7 @@ export default function ProjectComments() {
       displayName: user.displayName,
       photoURL: user.photoURL,
       content: newComment,
+      createdAt: timestamp.fromDate(new Date()),
     };
   };
   return (

@@ -25,7 +25,7 @@ export default function ProjectComments() {
   return (
     <div className="project-comments">
       <h4>Project Comments</h4>
-      <form className="add-comment" onSubmitt={handleSubmit}>
+      <form className="add-comment" onSubmit={handleSubmit}>
         <label>
           <span>Add new comment:</span>
           <textarea

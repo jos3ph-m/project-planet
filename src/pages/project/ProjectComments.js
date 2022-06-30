@@ -11,6 +11,7 @@ export default function ProjectComments() {
 
     const commentToAdd = {
       displayName: user.displayName,
+      photoURL: user.photoURL,
     };
   };
   return (

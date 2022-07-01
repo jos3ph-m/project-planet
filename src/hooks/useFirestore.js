@@ -84,6 +84,7 @@ export const useFirestore = (collection) => {
         type: 'UPDATED_DOCUMENT',
         payload: updateDocument,
       });
+      return updatedDocument;
     } catch (err) {
       console.log(err);
     }

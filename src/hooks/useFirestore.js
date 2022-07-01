@@ -76,6 +76,7 @@ export const useFirestore = (collection) => {
   };
 
   // update document
+  const updateDocument = async () => {};
 
   useEffect(() => {
     return () => setIsCancelled(true);

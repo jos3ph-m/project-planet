@@ -86,7 +86,7 @@ export const useFirestore = (collection) => {
       });
       return updatedDocument;
     } catch (err) {
-      console.log(err);
+      dispatchIfNotCancelled({ type: 'ERROR', payload: err.message });
     }
   };
 

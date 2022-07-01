@@ -76,7 +76,9 @@ export const useFirestore = (collection) => {
   };
 
   // update document
-  const updateDocument = async (id, updates) => {};
+  const updateDocument = async (id, updates) => {
+    dispatch({ type: 'IS_PENDING' });
+  };
 
   useEffect(() => {
     return () => setIsCancelled(true);

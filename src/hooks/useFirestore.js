@@ -80,7 +80,9 @@ export const useFirestore = (collection) => {
     dispatch({ type: 'IS_PENDING' });
     try {
       const updatedDocument = await ref.doc(id).update(updates);
-    } catch (err) {}
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   useEffect(() => {

@@ -78,6 +78,9 @@ export const useFirestore = (collection) => {
   // update document
   const updateDocument = async (id, updates) => {
     dispatch({ type: 'IS_PENDING' });
+    try {
+      const updatedDocument = await ref.doc(id);
+    } catch (err) {}
   };
 
   useEffect(() => {

@@ -28,7 +28,6 @@ export default function ProjectComments({ project }) {
     });
 
     if (!response.error) {
-      setNewComment('');
     }
   };
   return (

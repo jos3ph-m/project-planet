@@ -6,7 +6,7 @@ import { useFirestore } from '../../hooks/useFirestore';
 // id generator
 import nextId from 'react-id-generator';
 
-export default function ProjectComments() {
+export default function ProjectComments({ project }) {
   const { updateDocument, response } = useFirestore('projects');
   const [newComment, setNewComment] = useState('');
   const { user } = useAuthContext();

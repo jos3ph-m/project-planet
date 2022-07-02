@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { timestamp } from '../../firebase/config';
 import { useAuthContext } from '../../hooks/useAuthContext';
+import { useFirestore } from '../../hooks/useFirestore';
+
+// id generator
 import nextId from 'react-id-generator';
 
 export default function ProjectComments() {

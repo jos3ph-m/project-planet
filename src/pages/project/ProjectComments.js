@@ -24,7 +24,7 @@ export default function ProjectComments({ project }) {
       id: htmlId,
     };
     await updateDocument(project.id, {
-      comments: [...project.comments],
+      comments: [...project.comments, commentToAdd],
     });
   };
   return (

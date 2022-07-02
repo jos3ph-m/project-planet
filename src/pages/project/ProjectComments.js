@@ -23,8 +23,6 @@ export default function ProjectComments() {
       createdAt: timestamp.fromDate(new Date()),
       id: htmlId,
     };
-
-    console.log(commentToAdd);
   };
   return (
     <div className="project-comments">

@@ -23,6 +23,7 @@ export default function ProjectComments() {
       createdAt: timestamp.fromDate(new Date()),
       id: htmlId,
     };
+    await updateDocument();
   };
   return (
     <div className="project-comments">

@@ -45,6 +45,9 @@ export default function ProjectComments({ project }) {
               <div className="comment-date">
                 <p>date here</p>
               </div>
+              <div className="comment-content">
+                <p>{comment.content}</p>
+              </div>
             </li>
           ))}
       </ul>

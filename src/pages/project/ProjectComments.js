@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { timestamp } from '../../firebase/config';
 import { useAuthContext } from '../../hooks/useAuthContext';
 import { useFirestore } from '../../hooks/useFirestore';
+import Avatar from '../../components/Avatar';
 
 // id generator
 import nextId from 'react-id-generator';

@@ -36,7 +36,7 @@ export default function ProjectComments({ project }) {
       <h4>Project Comments</h4>
       <ul>
         {project.comments.length > 0 &&
-          project.comments.map((comment) => <li></li>)}
+          project.comments.map((comment) => <li key={comment.id}></li>)}
       </ul>
       <form className="add-comment" onSubmit={handleSubmit}>
         <label>

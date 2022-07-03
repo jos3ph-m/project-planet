@@ -42,6 +42,9 @@ export default function ProjectComments({ project }) {
                 <Avatar src={comment.photoURL} />
                 <p>{comment.displayName}</p>
               </div>
+              <div className="comment-date">
+                <p>date here</p>
+              </div>
             </li>
           ))}
       </ul>

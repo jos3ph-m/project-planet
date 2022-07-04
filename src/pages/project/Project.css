@@ -59,4 +59,5 @@
 }
 .comment-author {
   display: flex;
+  align-items: center;
 }

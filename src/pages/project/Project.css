@@ -62,3 +62,6 @@
   align-items: center;
   color: var(--title-color);
 }
+.comment-author .avatar {
+  width: 30px;
+}

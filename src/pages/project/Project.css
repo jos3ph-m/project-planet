@@ -72,3 +72,7 @@
   font-size: 0.9em;
   margin: 4px 0 10px;
 }
+.comment-content {
+  color: var(--text-color);
+  font-size: 0.9em;
+}

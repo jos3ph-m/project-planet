@@ -50,3 +50,6 @@
 .project-comments h4 {
   color: var(--heading-color);
 }
+.project-comments li {
+  padding: 16px;
+}

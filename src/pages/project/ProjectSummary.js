@@ -4,6 +4,7 @@ import { useAuthContext } from '../../hooks/useAuthContext';
 
 export default function ProjectSummary({ project }) {
   const { deleteDocument } = useFirestore('projects');
+  const { user } = useAuthContext();
 
   const handleClick = (e) => {
     deleteDocument(project.id);

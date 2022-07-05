@@ -17,6 +17,7 @@ export default function ProjectSummary({ project }) {
             </div>
           ))}
         </div>
+        <button></button>
       </div>
     </div>
   );

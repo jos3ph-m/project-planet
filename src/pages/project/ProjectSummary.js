@@ -17,7 +17,7 @@ export default function ProjectSummary({ project }) {
             </div>
           ))}
         </div>
-        <button></button>
+        <button className="btn"></button>
       </div>
     </div>
   );

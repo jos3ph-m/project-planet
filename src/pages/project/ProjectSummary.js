@@ -17,7 +17,7 @@ export default function ProjectSummary({ project }) {
             </div>
           ))}
         </div>
-        <button className="btn"></button>
+        <button className="btn">Mark as complete</button>
       </div>
     </div>
   );

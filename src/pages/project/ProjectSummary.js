@@ -2,6 +2,7 @@ import Avatar from '../../components/Avatar';
 import { useFirestore } from '../../hooks/useFirestore';
 
 export default function ProjectSummary({ project }) {
+  const { deleteDocument } = useFirestore('projects');
   return (
     <div>
       <div className="project-summary">

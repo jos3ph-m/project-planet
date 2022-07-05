@@ -3,6 +3,9 @@ import { useFirestore } from '../../hooks/useFirestore';
 
 export default function ProjectSummary({ project }) {
   const { deleteDocument } = useFirestore('projects');
+
+  const handleClick = (e) => {};
+
   return (
     <div>
       <div className="project-summary">

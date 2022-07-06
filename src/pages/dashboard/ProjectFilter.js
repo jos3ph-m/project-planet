@@ -1,3 +1,3 @@
 export default function ProjectFilter() {
-  return <div>ProjectFilter</div>;
+  return <div className="project-filter">ProjectFilter</div>;
 }

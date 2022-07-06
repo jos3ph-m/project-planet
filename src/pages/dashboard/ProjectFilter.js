@@ -1,4 +1,11 @@
-const filterList = ['all', 'mine'];
+const filterList = [
+  'all',
+  'mine',
+  'development',
+  'design',
+  'marketing',
+  'sales',
+];
 
 export default function ProjectFilter() {
   return (

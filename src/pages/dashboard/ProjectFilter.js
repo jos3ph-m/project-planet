@@ -1,4 +1,4 @@
-const filterList = ['all'];
+const filterList = ['all', 'mine'];
 
 export default function ProjectFilter() {
   return (

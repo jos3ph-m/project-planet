@@ -6,6 +6,7 @@ import { useHistory } from 'react-router-dom';
 export default function ProjectSummary({ project }) {
   const { deleteDocument } = useFirestore('projects');
   const { user } = useAuthContext();
+  const history = useHistory();
 
   const handleClick = (e) => {
     deleteDocument(project.id);

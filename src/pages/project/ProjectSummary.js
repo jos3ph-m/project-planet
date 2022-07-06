@@ -1,6 +1,7 @@
 import Avatar from '../../components/Avatar';
 import { useFirestore } from '../../hooks/useFirestore';
 import { useAuthContext } from '../../hooks/useAuthContext';
+import { useHistory } from 'react-router-dom';
 
 export default function ProjectSummary({ project }) {
   const { deleteDocument } = useFirestore('projects');

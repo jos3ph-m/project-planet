@@ -10,6 +10,7 @@ export default function ProjectSummary({ project }) {
 
   const handleClick = (e) => {
     deleteDocument(project.id);
+    // go back to home page after project deletion
     history.push('/');
   };
 

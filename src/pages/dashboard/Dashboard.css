@@ -1,3 +1,7 @@
 .project-filter {
   margin: 30px auto;
 }
+.project-filter nav {
+  display: flex;
+  
+}

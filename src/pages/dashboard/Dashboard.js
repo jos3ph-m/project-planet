@@ -1,9 +1,9 @@
 import ProjectList from '../../components/ProjectList';
 import { useCollection } from '../../hooks/useCollection';
+import ProjectFilter from './ProjectFilter';
 
 // styles
 import './Dashboard.css';
-import ProjectFilter from './ProjectFilter';
 
 export default function Dashboard() {
   const { documents, error } = useCollection('projects');

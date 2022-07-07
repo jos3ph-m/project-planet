@@ -12,7 +12,7 @@ export default function ProjectFilter() {
     <div className="project-filter">
       <nav>
         {filterList.map((f) => (
-          <button key={f}></button>
+          <button key={f}>{f}</button>
         ))}
       </nav>
     </div>

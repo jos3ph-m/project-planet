@@ -19,7 +19,11 @@ export default function ProjectFilter() {
     <div className="project-filter">
       <nav>
         {filterList.map((f) => (
-          <button key={f} onClick={() => handleClick(f)}>
+          <button
+            key={f}
+            onClick={() => handleClick(f)}
+            className={currentFilter === f ? 'active' : ''}
+          >
             {f}
           </button>
         ))}

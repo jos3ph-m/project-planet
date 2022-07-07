@@ -8,11 +8,14 @@ const filterList = [
 ];
 
 export default function ProjectFilter() {
+  const handleClick = (newFilter) => {};
   return (
     <div className="project-filter">
       <nav>
         {filterList.map((f) => (
-          <button key={f}>{f}</button>
+          <button key={f} onClick={() => handleClick(f)}>
+            {f}
+          </button>
         ))}
       </nav>
     </div>

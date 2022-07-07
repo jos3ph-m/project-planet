@@ -10,7 +10,11 @@ const filterList = [
 export default function ProjectFilter() {
   return (
     <div className="project-filter">
-      <nav>{filterList.map((f) => {})}</nav>
+      <nav>
+        {filterList.map((f) => (
+          <button></button>
+        ))}
+      </nav>
     </div>
   );
 }

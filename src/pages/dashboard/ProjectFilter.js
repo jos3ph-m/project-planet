@@ -8,7 +8,9 @@ const filterList = [
 ];
 
 export default function ProjectFilter() {
-  const handleClick = (newFilter) => {};
+  const handleClick = (newFilter) => {
+    console.log(newFilter);
+  };
   return (
     <div className="project-filter">
       <nav>

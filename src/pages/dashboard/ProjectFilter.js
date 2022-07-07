@@ -13,6 +13,7 @@ export default function ProjectFilter() {
   const [currentFilter, setCurrentFilter] = useState('all');
   const handleClick = (newFilter) => {
     console.log(newFilter);
+    setCurrentFilter(newFilter);
   };
   return (
     <div className="project-filter">

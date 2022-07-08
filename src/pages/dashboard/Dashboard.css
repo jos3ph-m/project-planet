@@ -14,4 +14,6 @@
 .project-filter button {
   background: transparent;
   border: 0;
+  font-family: inherit;
+
 }

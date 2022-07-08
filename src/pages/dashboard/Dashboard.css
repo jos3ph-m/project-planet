@@ -24,3 +24,6 @@
 .project-filter button:last-child {
   border: 0;
 }
+.project-filter button.active {
+  color: var(--primary-color);
+} 

@@ -17,5 +17,6 @@
   font-family: inherit;
   font-weight: bold;
   color: var(--text-color);
+  cursor: pointer;
 
 }

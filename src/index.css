@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 /* variables */
 :root {
-  --heading-color: #333;
+  --heading-color: #444;
   --text-color: #999;
   --primary-color: #465e92;
   --highlight-color: #d13267;

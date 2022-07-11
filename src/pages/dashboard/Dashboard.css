@@ -9,8 +9,9 @@
 }
 .project-filter p {
   font-size: 0.9em;
-  margin-right: 10px;
+  margin-right: 20px;
 }
+
 .project-filter button {
   background: transparent;
   border: 0;

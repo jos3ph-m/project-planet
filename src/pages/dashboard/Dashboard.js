@@ -7,6 +7,7 @@ import './Dashboard.css';
 
 export default function Dashboard() {
   const { documents, error } = useCollection('projects');
+  const [currentFilter, setCurrentFilter] = useState('all');
   return (
     <div>
       <h2 className="page-title">Dashboard</h2>

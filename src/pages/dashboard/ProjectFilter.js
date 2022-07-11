@@ -9,7 +9,7 @@ const filterList = [
   'sales',
 ];
 
-export default function ProjectFilter() {
+export default function ProjectFilter({ currentFilter }) {
   const handleClick = (newFilter) => {
     console.log(newFilter);
     setCurrentFilter(newFilter);

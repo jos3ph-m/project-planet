@@ -12,7 +12,6 @@ const filterList = [
 export default function ProjectFilter({ currentFilter }) {
   const handleClick = (newFilter) => {
     console.log(newFilter);
-    setCurrentFilter(newFilter);
   };
   return (
     <div className="project-filter">

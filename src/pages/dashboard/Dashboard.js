@@ -1,6 +1,7 @@
 import ProjectList from '../../components/ProjectList';
 import { useCollection } from '../../hooks/useCollection';
 import ProjectFilter from './ProjectFilter';
+import { useState } from 'react';
 
 // styles
 import './Dashboard.css';

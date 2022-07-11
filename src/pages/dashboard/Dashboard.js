@@ -12,7 +12,7 @@ export default function Dashboard() {
     <div>
       <h2 className="page-title">Dashboard</h2>
       {error && <p className="error">{error}</p>}
-      {documents && <ProjectFilter />}
+      {documents && <ProjectFilter currentFilter={currentFilter} />}
       {documents && <ProjectList projects={documents} />}
     </div>
   );

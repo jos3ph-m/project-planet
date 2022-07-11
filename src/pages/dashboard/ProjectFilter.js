@@ -9,9 +9,10 @@ const filterList = [
   'sales',
 ];
 
-export default function ProjectFilter({ currentFilter }) {
+export default function ProjectFilter({ currentFilter, changeFilter }) {
   const handleClick = (newFilter) => {
     console.log(newFilter);
+    changeFilter(newFilter);
   };
   return (
     <div className="project-filter">

@@ -18,6 +18,7 @@ export default function ProjectFilter() {
   return (
     <div className="project-filter">
       <nav>
+        <p></p>
         {filterList.map((f) => (
           <button
             key={f}

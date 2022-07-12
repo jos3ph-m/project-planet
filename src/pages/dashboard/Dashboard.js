@@ -2,12 +2,13 @@ import ProjectList from '../../components/ProjectList';
 import { useCollection } from '../../hooks/useCollection';
 import ProjectFilter from './ProjectFilter';
 import { useState } from 'react';
-import { useAuthContext } from '../../hooks/useAuthContext'
+import { useAuthContext } from '../../hooks/useAuthContext';
 
 // styles
 import './Dashboard.css';
 
 export default function Dashboard() {
+  const { user } = useAuthContext();
   const { documents, error } = useCollection('projects');
   const [currentFilter, setCurrentFilter] = useState('all');
 
@@ -22,7 +23,7 @@ export default function Dashboard() {
       case 'mine':
         let assignedToMe = false;
         document.assignedUsersList.forEach((u) => {});
-        return;
+    }
   });
 
   return (

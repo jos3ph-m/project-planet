@@ -18,6 +18,9 @@ export default function Dashboard() {
     switch (currentFilter) {
       case 'all':
         return true;
+      case 'mine':
+        let assignedToMe = false;
+        return;
     }
   });
 

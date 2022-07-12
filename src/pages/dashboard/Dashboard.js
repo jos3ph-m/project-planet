@@ -27,6 +27,7 @@ export default function Dashboard() {
             assignedToMe = true;
           }
         });
+        return assignedToMe;
     }
   });
 

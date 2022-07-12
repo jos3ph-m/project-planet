@@ -14,12 +14,13 @@ export default function Dashboard() {
     setCurrentFilter(newFilter);
   };
 
-  const projects = documents.filter(() => {
+  const projects = documents.filter((document) => {
     switch (currentFilter) {
       case 'all':
         return true;
       case 'mine':
         let assignedToMe = false;
+        document.assignedUsersList.forEach((u) => {});
         return;
     }
   });

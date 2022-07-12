@@ -14,6 +14,8 @@ export default function Dashboard() {
     setCurrentFilter(newFilter);
   };
 
+  const projects = documents.filter();
+
   return (
     <div>
       <h2 className="page-title">Dashboard</h2>

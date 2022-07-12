@@ -26,7 +26,7 @@ export default function Dashboard() {
           changeFilter={changeFilter}
         />
       )}
-      {documents && <ProjectList projects={documents} />}
+      {documents && <ProjectList projects={projects} />}
     </div>
   );
 }

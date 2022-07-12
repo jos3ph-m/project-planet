@@ -14,7 +14,7 @@ export default function Dashboard() {
     setCurrentFilter(newFilter);
   };
 
-  const projects = documents.filter();
+  const projects = documents.filter(() => {});
 
   return (
     <div>

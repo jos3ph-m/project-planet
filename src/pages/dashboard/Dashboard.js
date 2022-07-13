@@ -16,7 +16,7 @@ export default function Dashboard() {
     setCurrentFilter(newFilter);
   };
 
-  const projects = documents.filter((document) => {
+  const projects = documents ? documents.filter((document) => {
     switch (currentFilter) {
       case 'all':
         return true;

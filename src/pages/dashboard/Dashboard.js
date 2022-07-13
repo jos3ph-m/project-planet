@@ -31,6 +31,7 @@ export default function Dashboard() {
       case 'development':
         return;
       case 'design':
+      case 'sales':
     }
   });
 

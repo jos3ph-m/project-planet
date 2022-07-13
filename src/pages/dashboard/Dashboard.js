@@ -32,6 +32,7 @@ export default function Dashboard() {
         return;
       case 'design':
       case 'sales':
+      case 'marketing':
     }
   });
 

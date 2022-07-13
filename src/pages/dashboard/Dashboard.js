@@ -33,6 +33,7 @@ export default function Dashboard() {
       case 'sales':
       case 'marketing':
         console.log(document.category, currentFilter);
+        return document.category === currentFilter;
     }
   });
 

@@ -29,7 +29,6 @@ export default function Dashboard() {
         });
         return assignedToMe;
       case 'development':
-        return;
       case 'design':
       case 'sales':
       case 'marketing':

@@ -34,6 +34,8 @@ export default function Dashboard() {
       case 'marketing':
         console.log(document.category, currentFilter);
         return document.category === currentFilter;
+      default:
+        return true;
     }
   });
 

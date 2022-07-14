@@ -23,7 +23,7 @@
   font-size: 0.9em;
 }
 .project-filter button:last-child {
-  border: 0;
+  border: 1;
 }
 .project-filter button.active {
   color: var(--primary-color);

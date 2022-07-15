@@ -14,7 +14,7 @@
 
 .project-filter button {
   background: transparent;
-  border: 0;
+  border: 1;
   font-family: inherit;
   font-weight: bold;
   color: var(--text-color);

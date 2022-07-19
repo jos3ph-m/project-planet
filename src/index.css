@@ -11,7 +11,7 @@
 /* base styles */
 body {
   font-family: 'Roboto Mono', sans-serif;
-  margin: 2px;
+  margin: 0;
   font-size: 1.1em;
   background: var(--bg-color);
 }

@@ -59,7 +59,7 @@ input, textarea {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 textarea {
   min-height: 160px;

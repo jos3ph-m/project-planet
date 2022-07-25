@@ -13,7 +13,6 @@ export default function ProjectSummary({ project }) {
     // go back to home page after project deletion
     history.push('/');
   };
-  jhvhggvgghhh;
 
   return (
     <div>

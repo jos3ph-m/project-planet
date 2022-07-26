@@ -14,6 +14,8 @@ export default function ProjectComments({ project }) {
   const { user } = useAuthContext();
 
   const handleSubmit = async (e) => {
+    e.preventDefault();
+
     const htmlId = nextId();
 
     const commentToAdd = {

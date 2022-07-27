@@ -54,7 +54,7 @@ label span {
 }
 input, textarea {
   padding: 8px 6px;
-  font-size: 1em;
+  font-size: 2em;
   color: #777;
   width: 100%;
   box-sizing: border-box;

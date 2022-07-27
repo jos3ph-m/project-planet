@@ -58,7 +58,7 @@ input, textarea {
   color: #777;
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 4px;
 }
 textarea {

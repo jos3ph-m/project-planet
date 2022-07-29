@@ -62,7 +62,7 @@ input, textarea {
   border-radius: 4px;
 }
 textarea {
-  min-height: 160px;
+  min-height: 140px;
 }
 .error {
   color: red;

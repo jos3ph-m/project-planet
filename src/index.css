@@ -35,7 +35,7 @@ ul {
   border-radius: 4px;
   color: var(--primary-color);
   cursor: pointer;
-  font-size: 1.22em;
+  font-size: 1.24em;
   border: 2px solid var(--primary-color);
 }
 .btn:hover {

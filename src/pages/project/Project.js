@@ -17,7 +17,7 @@ export default function Project() {
 
   // No error and no document return Loading...
   if (!document) {
-    return <div className="loading">Loading</div>;
+    return <div className="loading">Loading...</div>;
   }
 
   // finally no error and the document exists, return the document name

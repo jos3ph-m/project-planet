@@ -36,7 +36,7 @@ export default function Navbar() {
             )}
             {isPending && (
               <button className="btn" disabled>
-                Logging out...
+                Logging out
               </button>
             )}
           </li>

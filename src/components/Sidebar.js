@@ -21,7 +21,7 @@ export default function Sidebar() {
             <li>
               <NavLink to="/">
                 <img src={DashboardIcon} alt="dashboard icon" />
-                <span>All Projects</span>
+                <span>Dashboard</span>
               </NavLink>
             </li>
             <li>
